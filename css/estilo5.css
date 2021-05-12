@@ -41,4 +41,20 @@ body{
     grid-row: span 4;
 }
 
+.content>article{
+    background-color:red;
+    color: white;
+    padding:20px;
+    margin-top: 5px;
+}
+
+.content .article h1,
+.content .article p {
+    padding: 10px;
+} 
+
+.container>.sidebar{
+    grid-column: span 2;
+    grid-row: span 4;
+}
 
