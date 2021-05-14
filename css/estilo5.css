@@ -18,7 +18,7 @@ body{
 .container {
     width: 90%;
     max-width: 1000px;
-    margin: 1.6m auto;
+    margin: 1.6em auto;
     display: grid;
     gap: 1.6em;
 
@@ -41,20 +41,35 @@ body{
     grid-row: span 4;
 }
 
-.content>article{
+.content>.article1{
     background-color:red;
     color: white;
     padding:20px;
     margin-top: 5px;
 }
 
-.content .article h1,
-.content .article p {
+.content .article1 h1,
+.content .article1 p {
     padding: 10px;
 } 
 
 .container>.sidebar{
     grid-column: span 2;
     grid-row: span 4;
+
+    display: flex;
+    background: #485450;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
 }
 
+.container>.related-post{
+    background: #2d3436;
+    color: #ffffff;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
